@@ -1,0 +1,135 @@
+html {
+    height: 100%;
+  }
+  
+body {
+    background: linear-gradient(0deg, #383d95, #040d30 90%) no-repeat #383d95;
+    min-height: 100%;
+    margin: 0;
+}
+
+@keyframes shooting-star {
+    0% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+    25% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translate3d(-270px, 180px, 0);
+    }
+}
+
+@keyframes twinkle {
+	from { opacity: .3; }
+	to { opacity: 1; }
+}
+
+#layer1:before {
+	/* animation: 3s linear infinite shooting-star; */
+    animation: shooting-star 7s infinite 5s linear;
+	background-image: url('http://imgur.com/ilhrli3.png');
+	background-size: 72px 50px;
+	content: ' ';
+	height: 50px;
+	left: 14%;
+	position: absolute;
+	top: -50px;
+	width: 72px;
+	z-index: 100;
+}
+
+#layer2:before {
+	/* animation: 3s linear infinite shooting-star; */
+    animation: shooting-star 3s infinite 1s linear;
+	background-image: url('http://imgur.com/ilhrli3.png');
+	background-size: 72px 50px;
+	content: ' ';
+	height: 50px;
+	left: 28%;
+	position: absolute;
+	top: -50px;
+	width: 72px;
+	z-index: 100;
+}
+
+#layer3:before {
+	/* animation: 3s linear infinite shooting-star; */
+    animation: shooting-star 5s infinite 2s linear;
+	background-image: url('http://imgur.com/ilhrli3.png');
+	background-size: 72px 50px;
+	content: ' ';
+	height: 50px;
+	left: 42%;
+	position: absolute;
+	top: -50px;
+	width: 72px;
+	z-index: 100;
+}
+
+#layer4:before {
+	/* animation: 3s linear infinite shooting-star; */
+    animation: shooting-star 9s infinite 4s linear;
+	background-image: url('http://imgur.com/ilhrli3.png');
+	background-size: 72px 50px;
+	content: ' ';
+	height: 50px;
+	left: 56%;
+	position: absolute;
+	top: -50px;
+	width: 72px;
+	z-index: 100;
+}
+
+#layer5:before {
+	/* animation: 3s linear infinite shooting-star; */
+    animation: shooting-star 11s infinite 6s linear;
+	background-image: url('http://imgur.com/ilhrli3.png');
+	background-size: 72px 50px;
+	content: ' ';
+	height: 50px;
+	left: 70%;
+	position: absolute;
+	top: -50px;
+	width: 72px;
+	z-index: 100;
+}
+
+#layer6:before {
+	/* animation: 3s linear infinite shooting-star; */
+    animation: shooting-star 6s infinite 3s linear;
+	background-image: url('http://imgur.com/ilhrli3.png');
+	background-size: 72px 50px;
+	content: ' ';
+	height: 50px;
+	left: 84%;
+	position: absolute;
+	top: -50px;
+	width: 72px;
+	z-index: 100;
+}
+
+#layer7:before {
+	/* animation: 3s linear infinite shooting-star; */
+    animation: shooting-star 3s infinite 1s linear;
+	background-image: url('http://imgur.com/ilhrli3.png');
+	background-size: 72px 50px;
+	content: ' ';
+	height: 50px;
+	left: 94%;
+	position: absolute;
+	top: -50px;
+	width: 72px;
+	z-index: 100;
+}
+
+#layers {
+	height: 100vh;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	width: 100vw;
+}
