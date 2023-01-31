@@ -1,8 +1,10 @@
 $('.navTrigger').click(function () {
     $(this).toggleClass('active');
     console.log("Clicked menu");
-    $("#mainListDiv").toggleClass("show_list");
-    $("#mainListDiv").fadeIn();
+    $("#mainListUl").toggleClass("show_list");
+    $("#navegador").toggleClass("activo");
+    $("#navegador").fadeIn();
+    $("#mainListUl").fadeIn();
 
 });
 

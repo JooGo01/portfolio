@@ -6,6 +6,11 @@
     text-align: center;
 }
 
+.nav{
+    top:0px;
+    left: 0px;
+}
+
 .nav .logo{
     float:left;
     width: auto;
@@ -86,7 +91,7 @@
         height: 0;
         overflow: hidden;
     }
-    .nav .navSections {
+    .nav .show_list {
         height: auto;
         display: none;
     }
@@ -99,8 +104,15 @@
         bottom: 0;
         background-color: #111;
         /*same background color of navbar*/
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
         background-position: center top;
     }
+
+    .activo{
+        background-color: #111;
+    }
+
     .nav .listSection ul li {
         width: 100%;
         text-align: right;
@@ -115,7 +127,6 @@
         display: block;
     }
 }
-
 
 /* Animation */
 
