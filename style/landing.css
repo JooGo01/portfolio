@@ -3,5 +3,13 @@
 }
 
 body{
-    background-color: blue;
+    background: linear-gradient(to bottom, var(--blu-color), var(--blue), var(--vl-color));
+}
+.nav{
+    height: 20vh;
+    opacity: 1;
+}
+.contenido{
+    width: 100%;
+    height: 40vh;
 }

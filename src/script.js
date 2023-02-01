@@ -16,3 +16,12 @@ $(window).scroll(function() {
         $('.nav').removeClass('affix');
     }
 });
+
+// scroll bar
+const scrollProgress = document.querySelector("#scrollProgress");
+let totalPageHeight = document.body.scrollHeight - window.innerHeight;
+window.onscroll = () => {
+    let newProgressHeight = (window.pageYOffset / totalPageHeight) * 100;
+    scrollProgress.style.height = `${newProgressHeight}%`;
+    scrollProgress.style.opacity = `${newProgressHeight}%`;
+};
