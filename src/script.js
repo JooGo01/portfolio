@@ -25,3 +25,16 @@ window.onscroll = () => {
     scrollProgress.style.height = `${newProgressHeight}%`;
     scrollProgress.style.opacity = `${newProgressHeight}%`;
 };
+
+//div change color
+$(function(){
+    'use strict';
+    var view = $(window).height();
+    $('.part').height(view).scrollie({
+        scrolloffset:-50,
+        scrollingInView: function(elem){
+            var bgColor=elem.data('background');
+            $('body').css('background-color', bgColor);
+        }
+    })
+});

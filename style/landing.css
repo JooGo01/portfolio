@@ -3,7 +3,9 @@
 }
 
 body{
-    background: linear-gradient(to bottom, var(--blu-color), var(--blue), var(--vl-color));
+    /* background: linear-gradient(to bottom, var(--blu-color), var(--blue), var(--vl-color)); */
+    background-color: var(--bl-color);
+    transition: background 1s ease;
 }
 .nav{
     height: 20vh;
@@ -20,4 +22,16 @@ body{
 
 h1{
     font-family: 'Bebas Neue', cursive;
+}
+
+.content{
+    height: 100vh;
+    width: 100%;
+}
+
+h2{
+    color: green;
+    font-size: 3em;
+    text-align: center;
+    vertical-align: middle;
 }
