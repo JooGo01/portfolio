@@ -38,3 +38,9 @@ $(function(){
         }
     })
 });
+
+// flex card
+$(".card-option").click(function(){
+    $(".card-option").removeClass("active");
+    $(this).addClass("active");
+ });
