@@ -41,6 +41,6 @@ $(function(){
 
 // flex card
 $(".card-option").click(function(){
-    $(".card-option").removeClass("active");
+    $(".card-option").toggleClass("active");
     $(this).addClass("active");
  });
