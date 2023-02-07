@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style/nav.css">
     <link rel="stylesheet" href="style/flexcard.css">
     <link rel="stylesheet" href="style/skillcard.css">
+    <link rel="stylesheet" href="style/contacto.css">
     <!-- font google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -175,19 +176,51 @@
             </div>
         </div>
     </section>
-    <section class="skillsection">
-        <div class="skill"></div>
-        <div class="skill"></div>
-        <div class="skill"></div>
-        <div class="skill"></div>
-        <div class="skill"></div>
-        <div class="skill"></div>
-        <div class="skill"></div>
-        <div class="skill"></div>
-        <div class="skill"></div>
-        <div class="skill"></div>
+    <section class="skillsection"> 
+        <div class="part" data-background="#ae4f87">
+            <div class="skillsec">
+                <div class="skill"></div>
+                <div class="skill"></div>
+                <div class="skill"></div>
+            </div>
+            <div class="skillsec">
+                <div class="skill"></div>
+                <div class="skill"></div>
+                <div class="skill"></div>
+            </div>
+            <div class="skillsec">
+                <div class="skill"></div>
+                <div class="skill"></div>
+                <div class="skill"></div>
+                <div class="skill"></div>
+            </div>
+        </div>
     </section>
-    <section class="pie"></section>
+    <section class="contactosection">
+        <div class="contacto part" data-background="#07ccff">
+            <form action="" class="form_contact">
+                <h2>Envia un mensaje</h2>
+                <div class="user_info">
+                    <label for="names">Nombres *</label>
+                    <input type="text" id="names">
+    
+                    <label for="phone">Telefono / Celular</label>
+                    <input type="text" id="phone">
+    
+                    <label for="email">Correo electronico *</label>
+                    <input type="email" id="email">
+    
+                    <label for="mensaje">Mensaje *</label>
+                    <textarea id="mensaje" maxlength="200" placeholder="200 caract. max."></textarea>
+    
+                    <input type="button" value="Enviar Mensaje" id="btnSend">
+                </div>
+            </form>
+        </div>
+        <div class="imgcontacto">
+
+        </div>
+    </section>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="src/script.js"></script>
