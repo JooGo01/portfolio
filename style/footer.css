@@ -1,0 +1,21 @@
+.footer{
+    height: 40vh;
+    background-color: black;
+}
+
+.footer .icono a{
+    color: white;
+    padding: 5px 10px 5px 10px;
+}
+.footer .icono a:hover {
+    color: var(--second-color);
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.fa-2x{
+    font-size: 3em;
+}

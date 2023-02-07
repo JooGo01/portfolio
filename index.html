@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="style/flexcard.css">
     <link rel="stylesheet" href="style/skillcard.css">
     <link rel="stylesheet" href="style/contacto.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <!-- font google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -202,23 +205,29 @@
                 <h2>Envia un mensaje</h2>
                 <div class="user_info">
                     <label for="names">Nombres *</label>
-                    <input type="text" id="names">
+                    <input type="text" class="form-control" id="names" required>
     
                     <label for="phone">Telefono / Celular</label>
-                    <input type="text" id="phone">
+                    <input type="text" class="form-control" id="phone" required>
     
                     <label for="email">Correo electronico *</label>
-                    <input type="email" id="email">
+                    <input type="email" class="form-control" id="email" required>
     
                     <label for="mensaje">Mensaje *</label>
-                    <textarea id="mensaje" maxlength="200" placeholder="200 caract. max."></textarea>
+                    <textarea id="mensaje" class="area-control" maxlength="200" placeholder="200 caract. max." required></textarea>
     
                     <input type="button" value="Enviar Mensaje" id="btnSend">
                 </div>
             </form>
         </div>
         <div class="imgcontacto">
-
+        </div>
+    </section>
+    <section class="footer">
+        <div>
+            <span class="icono"><a href="https://twitter.com/Jos_Goo" target="_blank"><i class="fa-brands fa-twitter-square fa-2x"></i></a></span>
+            <span class="icono"><a href="https://github.com/JooGo01" target="_blank"><i class="fa-brands fa-github  fa-2x"></i></a></span>
+            <span class="icono"><a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa-brands fa-linkedin  fa-2x"></i></a></span>
         </div>
     </section>
 </body>
