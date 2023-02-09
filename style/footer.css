@@ -1,5 +1,5 @@
 .footer{
-    height: 40vh;
+    height: 30vh;
     background-color: black;
 }
 
@@ -18,4 +18,12 @@
 
 .fa-2x{
     font-size: 3em;
+}
+
+.redes{
+    margin: auto;
+    height: inherit;
+    width: max-content;
+    align-items: center;
+    display: flex;
 }

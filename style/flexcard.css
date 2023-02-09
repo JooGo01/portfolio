@@ -7,6 +7,7 @@
     max-width: 900px;
     width: calc(100% - 100px);
     height: 400px;
+    margin: auto;
   }
   .card-option {
     /* background-image: url("https://66.media.tumblr.com/f19901f50b79604839ca761cd6d74748/tumblr_o65rohhkQL1qho82wo1_1280.jpg"); */
