@@ -205,16 +205,16 @@
                 <h2>Envia un mensaje</h2>
                 <div class="user_info">
                     <label for="names">Nombres *</label>
-                    <input type="text" class="form-control" id="names" required>
+                    <input type="text" id="idname" class="form-control" id="names" required>
     
                     <label for="phone">Telefono / Celular</label>
-                    <input type="text" class="form-control" id="phone" required>
+                    <input type="text" id="idemail" class="form-control" id="phone" required>
     
                     <label for="email">Correo electronico *</label>
-                    <input type="email" class="form-control" id="email" required>
+                    <input type="email" id="idphone" class="form-control" id="email" required>
     
                     <label for="mensaje">Mensaje *</label>
-                    <textarea id="mensaje" class="area-control" maxlength="200" placeholder="200 caract. max." required></textarea>
+                    <textarea id="mensaje" id="idtext" class="area-control" maxlength="200" placeholder="200 caract. max." required></textarea>
     
                     <input type="button" value="Enviar Mensaje" id="btnSend">
                 </div>
@@ -235,4 +235,6 @@
 <script src="src/script.js"></script>
 <script src="src/jquery.scrollie.js"></script>
 <script src="src/jquery.scrollie.min.js"></script>
+<script src="src/data.js"></script>
+<script src="src/mailfnc.js"></script>
 </html>
