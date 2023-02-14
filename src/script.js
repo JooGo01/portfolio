@@ -11,7 +11,6 @@ $('.navTrigger').click(function () {
 $(window).scroll(function() {
     if ($(document).scrollTop() > 50) {
         $('.nav').addClass('affix');
-        console.log("OK");
     } else {
         $('.nav').removeClass('affix');
     }
@@ -41,6 +40,26 @@ $(function(){
 
 // flex card
 $(".card-option").click(function(){
-    $(".card-option").toggleClass("active");
+    $(".card-option").removeClass("active");
     $(this).addClass("active");
  });
+
+//  animation blinking and text 
+$(document).ready(function () {
+    // typing animation
+    (function ($) {
+      $.fn.writeText = function (content) {
+        var contentArray = content.split(""),
+          current = 0,
+          elem = this;
+        setInterval(function () {
+          if (current < contentArray.length) {
+            elem.text(elem.text() + contentArray[current++]);
+          }
+        }, 80);
+      };
+    })(jQuery);
+  
+    // input text for typing animation
+    $("#aboutme").writeText("PROGRAMMER - DATABASE ADMINISTRATOR - WEB DEVELOPER FULL STACK");
+});

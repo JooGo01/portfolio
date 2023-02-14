@@ -1,0 +1,20 @@
+#aboutme{
+    color:white;
+}
+p .blinking-cursor {
+    font-weight: 500;
+    margin-left: 4px;
+    font-size: 20px;
+    color: white !important;
+    animation: 1s blink step-end infinite;
+}  
+@keyframes blink {
+    from,
+    to {
+        color: transparent;
+    }
+    50% {
+        color: white;
+    }
+}
+  

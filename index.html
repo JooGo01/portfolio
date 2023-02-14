@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="style/skillcard.css">
     <link rel="stylesheet" href="style/contacto.css">
     <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/aboutme.css">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <!-- font google -->
@@ -114,6 +115,7 @@
     </section>
     <section class="contenidoo">
         <h1>SOBRE MI</h1>
+        <p><span id="aboutme"></span><span class="blinking-cursor">|</span></p>
         <div id="texto">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste rerum aliquam odio! Ipsum, non, dignissimos nihil sequi nulla rem vero, a aspernatur voluptatibus asperiores molestiae commodi temporibus illum id fugiat?
             Est magni harum asperiores vel accusantium iste illo cum inventore, sapiente odit culpa nam quis fugiat aliquid in ratione neque perspiciatis repellat quasi voluptatum dignissimos quisquam non? Maxime, totam hic.
@@ -200,27 +202,29 @@
         </div>
     </section>
     <section class="contactosection">
-        <div class="contacto part" data-background="#07ccff">
-            <form action="" class="form_contact">
-                <h2>Envia un mensaje</h2>
-                <div class="user_info">
-                    <label for="names">Nombres *</label>
-                    <input type="text" id="idname" class="form-control" id="names" required>
-    
-                    <label for="phone">Telefono / Celular</label>
-                    <input type="text" id="idemail" class="form-control" id="phone" required>
-    
-                    <label for="email">Correo electronico *</label>
-                    <input type="email" id="idphone" class="form-control" id="email" required>
-    
-                    <label for="mensaje">Mensaje *</label>
-                    <textarea id="mensaje" id="idtext" class="area-control" maxlength="200" placeholder="200 caract. max." required></textarea>
-    
-                    <input type="button" value="Enviar Mensaje" id="btnSend">
-                </div>
-            </form>
-        </div>
-        <div class="imgcontacto">
+        <div class="contact">
+            <div class="contacto part" data-background="#07ccff">
+                <form action="" class="form_contact">
+                    <h2>Envia un mensaje</h2>
+                    <div class="user_info">
+                        <label for="names">Nombres *</label>
+                        <input type="text" id="idname" class="form-control" id="names" required>
+        
+                        <label for="phone">Telefono / Celular</label>
+                        <input type="text" id="idemail" class="form-control" id="phone" required>
+        
+                        <label for="email">Correo electronico *</label>
+                        <input type="email" id="idphone" class="form-control" id="email" required>
+        
+                        <label for="mensaje">Mensaje *</label>
+                        <textarea id="mensaje" id="idtext" class="area-control" maxlength="200" placeholder="200 caract. max." required></textarea>
+        
+                        <input type="button" value="Enviar Mensaje" id="btnSend">
+                    </div>
+                </form>
+            </div>
+            <div class="imgcontacto">
+            </div>
         </div>
     </section>
     <section class="footer">

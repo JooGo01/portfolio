@@ -1,17 +1,21 @@
 .contactosection{
     height: 100vh;
+}
+.contact{
     width: 100%;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 80vh;
 }
 .contacto{
-    width: 60%;
+    width: 100%;
 }
 .form_contact .user_info{
     display: flex;
     flex-direction: column;
 }
 .imgcontacto{
-    width: 40%;
+    width: 100%;
     position: relative;
     flex-direction: column;
     align-items: center;
