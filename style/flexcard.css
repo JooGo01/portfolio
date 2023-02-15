@@ -23,12 +23,11 @@
     opacity: .7;
     cursor: pointer;
     transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
-    /* transition: 0.3s; */
   }
   
   .card-option:not(.active) {
     flex-grow: 1;
-     border-radius: 30px;
+    border-radius: 30px;
   }
   .card-option.active {
     flex-grow: 10000;
@@ -46,7 +45,6 @@
     left: 20px;
     height: 40px;
     transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95); 
-    /* transition: 0.4s; */
   }
   
   .card-option:not(.active) .card-label {

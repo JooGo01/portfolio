@@ -1,4 +1,7 @@
 :root{
+    --font-title: 'Playfair Display', serif;
+    --font-sectitle:'Josefin Sans', sans-serif;
+    --font-p: 'EB Garamond', serif;
     --first-color:#07ccff;
     --second-color:#ae4f87;
     --bl-color:#111;

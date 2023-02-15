@@ -20,9 +20,10 @@
 }
 
 .nav .logo a{
+    font-family: var(--font-title);
     text-decoration: none;
     color: antiquewhite;
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 
 .nav .logo a:hover{
@@ -51,10 +52,11 @@
 }
 
 .nav .listSection ul li a{
+    font-family: var(--font-title);
     text-decoration: none;
     color: antiquewhite;
     line-height: 65px;
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 
 .nav .listSection ul li a:hover{

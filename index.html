@@ -20,9 +20,13 @@
     <!-- font google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu+Mono&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet"> -->
+    <!-- fonts que se usan -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
     <title>Jose G. Portfolio</title>
 </head>
 <body>
@@ -119,19 +123,10 @@
         <h1>Jose Gomez</h1>
         <hr class="sep">
         <h2>SOBRE MI</h2>
-        <p><span id="aboutme"></span><span class="blinking-cursor">|</span></p>
-        <div id="texto">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste rerum aliquam odio! Ipsum, non, dignissimos nihil sequi nulla rem vero, a aspernatur voluptatibus asperiores molestiae commodi temporibus illum id fugiat?
-            Est magni harum asperiores vel accusantium iste illo cum inventore, sapiente odit culpa nam quis fugiat aliquid in ratione neque perspiciatis repellat quasi voluptatum dignissimos quisquam non? Maxime, totam hic.
-            Atque praesentium veritatis neque assumenda tempore fuga ipsam enim. Similique optio voluptatem, praesentium vitae iusto quo quas perferendis nulla nesciunt reiciendis rerum vel, error soluta beatae et officia quod sed?
-            Eum dicta beatae nam placeat odit molestiae repudiandae dolor repellat, aperiam voluptatum natus perferendis consequatur debitis, qui et culpa corrupti provident, neque necessitatibus. Provident officia doloremque iure. Explicabo, atque tenetur?
-            Non repudiandae porro, eos tenetur voluptatibus ducimus id beatae. Iste veritatis ullam molestias tempore sequi labore, eos numquam facere non praesentium delectus earum amet commodi aspernatur necessitatibus facilis corrupti vel.
-            Delectus amet impedit laboriosam? Voluptatum nulla aspernatur sapiente reiciendis illo deleniti accusantium. Nesciunt, aliquam consequuntur aliquid debitis aperiam labore eius illum, expedita adipisci ad error culpa consectetur distinctio quisquam minima?
-            Cumque soluta obcaecati et sapiente vitae molestias ad qui rerum quo ducimus? Reprehenderit ut, iste, nihil voluptate laborum nulla tempore veritatis molestias eveniet ex numquam delectus tempora quidem dolores officiis?
-            Assumenda, ipsa sequi eum, voluptates vel temporibus labore ea fugit ipsam asperiores nobis, velit officiis doloremque maiores itaque nesciunt mollitia consequatur. Adipisci tenetur distinctio eveniet error repudiandae, mollitia voluptatem dolorem!
-            Laboriosam voluptates ut mollitia excepturi error maxime perferendis, possimus voluptatem necessitatibus enim aspernatur delectus quaerat ratione magni omnis. Consectetur quod nobis quisquam quidem nostrum eligendi provident asperiores accusamus labore ipsam?
-            Tempora in adipisci, inventore officia, minima at illo laborum placeat voluptas libero delectus saepe odio iusto. Consequuntur est, neque, similique reprehenderit beatae in iusto, hic suscipit eius ad odit quos.</p>
-        </div>
+        <p>
+            ¡Hola! Soy José <span id="aboutme"></span><span class="blinking-cursor">|</span><br>
+            Tengo 1 año y medio de experiencia en el ambito IT, y aprendiendo ciberseguridad, para proximamente desenvolverme en este sector.
+        </p>
         <div class="bg-color">
             <div class="part" data-background="#07ccff">
                 <div class="content">
@@ -187,17 +182,23 @@
     </section>
     <section class="skillsection"> 
         <div class="part" data-background="#ae4f87">
-            <div class="skillsec">
+            <h2>SKILL SECTION</h2>
+            <div id="opcskill">
+                <button class="skillopt">WEB</button>
+                <button class="skillopt">SOFT</button>
+                <button class="skillopt">DB</button>
+            </div>
+            <div class="skillsec" data-skill="skillweb">
                 <div class="skill"></div>
                 <div class="skill"></div>
                 <div class="skill"></div>
             </div>
-            <div class="skillsec">
+            <div class="skillsec" data-skill="skillsoft">
                 <div class="skill"></div>
                 <div class="skill"></div>
                 <div class="skill"></div>
             </div>
-            <div class="skillsec">
+            <div class="skillsec" data-skill="skilldba">
                 <div class="skill"></div>
                 <div class="skill"></div>
                 <div class="skill"></div>

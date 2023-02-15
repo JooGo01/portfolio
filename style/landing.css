@@ -1,5 +1,5 @@
 *{
-    font-family: 'Press Start 2P', cursive;
+    font-family: var(--font-p);
 }
 
 body{
@@ -17,12 +17,18 @@ body{
     height: 40vh;
 }
 
-#texto p{
-    font-family: 'Ubuntu Mono', monospace;
+h1{
+    font-family: var(--font-title);
+    font-size: 3em;
 }
 
-h1{
-    font-family: 'Bebas Neue', cursive;
+h2{
+    font-family: var(--font-sectitle);
+    font-size: 2.8em;
+}
+
+p{
+    font-size: 1.4em;
 }
 
 .contenidoo{

@@ -5,7 +5,6 @@ $('.navTrigger').click(function () {
     $("#navegador").toggleClass("activo");
     $("#navegador").fadeIn();
     $("#mainListUl").fadeIn();
-
 });
 
 $(window).scroll(function() {
@@ -61,5 +60,25 @@ $(document).ready(function () {
     })(jQuery);
   
     // input text for typing animation
-    $("#aboutme").writeText("PROGRAMMER - DATABASE ADMINISTRATOR - WEB DEVELOPER FULL STACK");
+    var text=["PROGRAMMER", "DATABASE ADMINISTRATOR", "WEB DEVELOPER FULL STACK"];
+    var index=0;
+    function changeText(){
+      document.getElementById("aboutme").innerText = "";
+      $("#aboutme").writeText (text[index]);
+      index = (index + 1) % 3;
+    }
+
+    var interval = window.setInterval(changeText, 8000);
+
+    window.onunload = function () {
+      window.clearInterval(interval);
+    }
+    // $("#aboutme").writeText("PROGRAMMER - DATABASE ADMINISTRATOR - WEB DEVELOPER FULL STACK");
 });
+
+
+//mostrar skills diferentes
+$(".skillopt").click(function(){
+  $(".skillopt").removeClass("active");
+  $(this).addClass("active");
+})
