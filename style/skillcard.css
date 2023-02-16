@@ -18,16 +18,17 @@
 }
 
 .skill{
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-    background-color: black;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    background-color: var(--vl-color);
     height: 250px;
     width: 250px;
     transition: 1s;
 }
 
 .skill:hover{
-    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
-    background-color: blue;
+    /* clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%); */
+    background-color: var(--wh-color);
+    box-shadow: inset 0 0 6px var(--vl-color),  0 0 6px var(--vl-color);
     transition: 1s;
     opacity: 1.0;
 }
