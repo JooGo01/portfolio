@@ -81,4 +81,15 @@ $(document).ready(function () {
 $(".skillopt").click(function(){
   $(".skillopt").removeClass("active");
   $(this).addClass("active");
+  var data=$(this).data('skill');
+  if(data=="skillweb"){
+    $(".skillsec").removeClass("skillshow");
+    $("#websec").addClass("skillshow");
+  }else if(data=="skilldba"){
+    $(".skillsec").removeClass("skillshow");
+    $("#dbasec").addClass("skillshow");
+  }else if(data=="skillsoft"){
+    $(".skillsec").removeClass("skillshow");
+    $("#softsec").addClass("skillshow");
+  }
 })

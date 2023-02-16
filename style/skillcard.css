@@ -4,7 +4,17 @@
 }
 
 .skillsec{
-    display: flex;
+    display: none;
+    grid-template-columns: auto auto;
+}
+
+.skillsec.skillshow{
+    display: grid;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    grid-gap: 1em;
+    padding-top: 1em;
 }
 
 .skill{
@@ -64,4 +74,14 @@
     text-shadow: 0 0 16px var(--blu-color);
     box-shadow: inset 0 0 6px var(--blu-color),  0 0 6px var(--blu-color);
     color: var(--wh-color);
+}
+
+/* svg img */
+
+.imgskill{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
