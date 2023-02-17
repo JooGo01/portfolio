@@ -83,13 +83,13 @@ $(".skillopt").click(function(){
   $(this).addClass("active");
   var data=$(this).data('skill');
   if(data=="skillweb"){
-    $(".skillsec").removeClass("skillshow");
+    $(".skilllist").removeClass("skillshow");
     $("#websec").addClass("skillshow");
   }else if(data=="skilldba"){
-    $(".skillsec").removeClass("skillshow");
+    $(".skilllist").removeClass("skillshow");
     $("#dbasec").addClass("skillshow");
   }else if(data=="skillsoft"){
-    $(".skillsec").removeClass("skillshow");
+    $(".skilllist").removeClass("skillshow");
     $("#softsec").addClass("skillshow");
   }
 })
